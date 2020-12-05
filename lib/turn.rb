@@ -25,7 +25,7 @@ end
 # define method with one paramater
 def input_to_index(input)
 # converts argument to integer and subracts one
-input.to_i - 1
+input.to_i - 1 = index
 # end method definition
 end
 
@@ -40,5 +40,6 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   input_to_index(input)
+  valid_move?(index)
 
 end
