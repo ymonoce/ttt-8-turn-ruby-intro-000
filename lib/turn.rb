@@ -8,4 +8,3 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} " # puts row 3 of board
 # end definition of method ln. six
 end
-
