@@ -43,5 +43,7 @@ def turn(board)
   if valid_move?
     move(board, input, xo)
   else
+    turn(board)
+  end
 
 end
