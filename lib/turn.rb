@@ -22,3 +22,17 @@ def position_taken? (board, index)
 # index number on board array is equal to X or O this will return true, anything else will return false
   board[index] == "X" || board[index] == "O"
 end
+
+# define method with one paramater
+def input_to_index(input)
+# converts argument to integer and subracts one
+input.to_i - 1
+# end method definition
+end
+
+# define method with three paramaters
+def move(board, input, xo = "X")
+# update board array with input set equal to string
+  board[input] = xo
+# end method definition
+end
